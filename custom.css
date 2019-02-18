@@ -1,0 +1,285 @@
+
+ .section3{
+    max-width: 1366px;
+    margin:0 auto;
+   /* height: 1000px;*/
+    background: #DFE4E9;
+    border-top:1px solid #DFE4E9 ;
+ }
+
+
+  .section3 .main-text p{
+      margin:100px auto 40px;
+width: 689px;
+height: 60px;
+/*border:1px solid red;*/
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 40px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #102EDB;
+}
+
+.section3 .choose_class{
+margin:0 auto;
+/*background-color: white;*/
+display: flex;
+justify-content: center;
+}
+.choose_class .left_block{
+    margin-right: 70px;
+}
+.choose_class .left_block h3{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #102EDB;
+margin:0 auto 10px;
+
+}
+.choose_class .left_block p{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+
+color: #0B3BA7;
+}
+
+.choose_class .right_block h3{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 30px;
+text-align: center;
+letter-spacing: -0.02em;
+color: rgba(89, 89, 90, 0.6);
+margin:0 auto 10px;
+}
+.choose_class .right_block p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+color: rgba(89, 89, 90, 0.6);
+}
+.choose_class .line{
+    width: 75px;
+height: 0px;
+border: 2px solid #102EDB;
+box-shadow: 0px 4px 8px #102EDB;
+margin:0 auto;
+}
+        /*  grid busses*/
+
+.eco_minivan{
+   max-width: 1141px;
+margin:180px auto 0;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}   
+     
+
+
+
+#first-tab-text{
+    /* position:relative; */
+    font-size: 24px;
+    top:0px;
+   bottom: 120px;
+       font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 40px;
+letter-spacing: -0.02em;
+color: #102EDB;
+ /* border:1px solid red; */
+ margin-top:-120px;
+  }
+.minivan_tab{                      /*   cell of grid*/
+  /* border:1px solid red;*/
+width: 367px;
+height: 560px;
+background: #FFFFFF;
+box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+margin-right: 12px;
+margin-bottom: 40px;
+}
+.wrap-img{
+    /* border:1px solid red; */
+    outline: none;
+}
+.minivan_img1{
+    margin-top:50px;
+max-width: 367px;
+height: 260px;
+background: url(images/minivan/arenda_minivehna_toyota_alphard.png);
+border-radius: 10px 10px 0px 0px;
+}
+.minivan_img1-1{
+    margin-top:50px;
+    max-width: 367px;
+    height: 260px;
+    background: url(images/minivan/zakaz_minivehna_toyota_alphard.png);
+    border-radius: 10px 10px 0px 0px;
+    }
+.minivan_img2{
+max-width: 367px;
+height: 260px;
+background: url(images/minivan/zakaz_minivehna_mercedes_viano.png);
+border-radius: 10px 10px 0px 0px;
+}
+.minivan_img2-2{
+    max-width: 367px;
+    height: 260px;
+    background: url(images/minivan/arenda_minivehna_mercedes_viano.png);
+    border-radius: 10px 10px 0px 0px;
+    }
+.minivan_img3{
+max-width: 367px;
+height: 260px;
+background: url(images/minivan/arenda_minivehna_mercedes_vito.png);
+border-radius: 10px 10px 0px 0px;
+}
+.minivan_img3-3{
+    max-width: 367px;
+    height: 260px;
+    background: url(images/minivan/zakaz_minivehna_mercedes_vito.png);
+    border-radius: 10px 10px 0px 0px;
+    }
+
+.minivan_img4{
+max-width: 367px;
+height: 260px;
+background: url(images/minivan/arenda_minivehna_hyundai_grand_starex.png);
+border-radius: 10px 10px 0px 0px;
+}
+.minivan_img5{
+max-width: 367px;
+height: 260px;
+background: url(images/minivan/arenda_minivehna_volkswagen_caravelle.png);
+border-radius: 10px 10px 0px 0px;
+}
+.minivan_img6{
+max-width: 367px;
+height: 260px;
+background: url(images/minivan/arenda_minivehna_toyota_hiace.png);
+border-radius: 10px 10px 0px 0px;
+}
+
+.blue_line{
+    max-width: 367px;
+    height: 60px;
+    background: #0B3BA7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.blue_line h3{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 20px;
+color: #FFFFFF;
+mix-blend-mode: hard-light;
+}
+.blue_line p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold!important;
+line-height: normal;
+font-size: 20px !important;
+/*ext-align: right;*/
+/*color: #FED500;*/
+color:#FED500 !important;
+mix-blend-mode: hard-light;
+}
+.minivan_tab p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: 23px;
+font-size: 14px;
+color: #59595A;
+margin:20px;
+}
+.minivan_tab p+p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: 23px;
+font-size: 14px;
+color: #59595A;
+margin-top:0px;
+}
+.minivan_tab .price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*border:1px solid navy;*/
+    margin-top:-30px;
+}
+.simple_text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+color: #454545;
+}
+.bold_blue_text{
+ font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 30px;
+text-align: right;
+color: #102EDB;
+}
+.minivan_tab .divider{
+    width: 1px;
+    height: 20px;
+    background-color: black;
+}
+.price  p:first-child{
+  /*  border:3px solid green;*/
+    margin-left:0px;
+}
+
+.minivan_tab .button_order{
+width: 203px;
+height: 40px;
+background: #FED500;
+border-radius: 8px;
+margin:0 auto;
+display: flex;
+align-items: center;
+}
+.button_order>p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 14px;
+text-align: center;
+color: #232323;
+}
